@@ -1,0 +1,21 @@
+/* 
+width
+border-collapse: separate|collapse
+vertical-align: top|bottom|middle
+border-spacing: top&bottom left&right
+caption-side: top|bottom|initial|inherit
+
+<caption>Table 1.1 Customers</caption>
+caption-side: top|bottom
+
+empty-cells: show|hide
+
+table-layout: auto|fixed
+
+Responsive Table
+will display a horizontal scroll bar if the screen is too small
+Add a container element (like <div>) with overflow-x:auto
+
+
+
+*/

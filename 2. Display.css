@@ -1,0 +1,25 @@
+/* 
+
+display: none|block|inline|inline-block
+
+block level elements starts on new line{
+    <div>
+    <h1> - <h6>
+    <p>
+    <form>
+    <header>
+    <footer>
+    <section>
+}   note: A block element is not allowed to have other block elements inside it
+
+inline elements not starts with new line{
+    <span>
+    <i> <b> <strong>
+    <a>
+    <img>
+}
+
+inline-block
+allows to set a width and height compared to inline
+does not add a line-break compared to block 
+*/

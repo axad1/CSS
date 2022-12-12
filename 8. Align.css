@@ -1,0 +1,33 @@
+/* 
+1. margin: auto
+block elements
+To center an image, set left and right margin to auto and make it into a block element
+
+2. text-align: center
+
+3. position: absolute
+use left, right, top, bottom
+Absolute positioned elements are removed from the normal flow, and can overlap elements
+
+4. float: left|right
+Note: If an element is taller than the element containing it,
+and it is floated, it will overflow outside of its container.
+You can use the "clearfix hack" to fix this
+
+5. Center Vertically - Using padding
+
+6. Center Vertically - Using line-height
+trick is to use the line-height property
+with a value that is equal to the height property
+
+7. Center Vertically - Using position & transform
+another solution is to use positioning and the transform property
+
+8. Center Vertically - Using Flexbox
+
+
+
+
+
+
+*/

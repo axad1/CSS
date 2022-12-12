@@ -1,0 +1,34 @@
+:
+1. Anchor Pseudo-classes
+selector:pseudo-class
+a:link
+a:visited
+a:hover
+a:active
+
+2. Pseudo-classes with  HTML Classes
+selector.classname:pseudo-class
+a.myclass:hover
+
+3. Simple Tooltip Hover
+on hover div change property of inside tag
+p{
+  display: none;
+}
+div:hover p{
+  display: block;
+}
+
+4. Childs
+:first-child
+:last-child
+
+first <em> element in all <p>
+p em:first-child {
+  color: blue;
+}
+
+Match all <em> elements in all first child <p>
+p:first-child em{
+  color: blue;
+}

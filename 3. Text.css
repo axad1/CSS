@@ -1,0 +1,44 @@
+/*
+
+color: name | hex, rgb, rgba, hsl, hsla
+
+background-color: name | hex, rgb, rgba, hsl, hsla
+
+text-align: center | left | right | justify
+(horizontal align)
+text-align-last: center | right | justify
+(align the last line of a text)
+
+direction: rtl;
+unicode-bidi: bidi-overrid;
+change the text direction of an element
+
+(mostly for images)
+vertical-align:
+baseline
+text-top
+text-bottom
+sub
+super
+
+text-decoration: none 
+text-decoration-line: overline | line-through | underline | overline underline
+text-decoration-color: color
+text-decoration-style: solid | double | dotted | dashed | wavy
+text-decoration-thickness: auto | px, %
+text-decoration: line color style thickness (shorthand property)
+
+text-transform: uppercase | lowercase | capitalize
+
+text-indent: px, %
+letter-spacing: normal|length|initial|inherit
+line-height: normal|number * current fontsize|length %,px,cm,in|initial|inherit
+word-spacing: normal|length|initial|inherit
+white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit
+
+text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 5px darkblue, 0 0 25px blue;
+} (must try)
+

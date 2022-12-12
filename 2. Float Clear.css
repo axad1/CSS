@@ -1,0 +1,27 @@
+/*
+float: left|right|none|inherit
+ Use float to get block elements to float next to each other
+*/
+
+/* 
+clear: none|left|right|both|inherit
+specifies what should happen with the element that is next to a floating element
+
+none - not pushed below left or right floated elements (default)
+left - pushed below left floated elements
+right - pushed below right floated elements
+both - pushed below both left and right floated elements
+*/
+
+/* 3 divs */
+div{
+    border: medium solid black;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+#three{
+    background-color: blue;
+    clear: left;
+}

@@ -1,0 +1,16 @@
+*           All Elements
+div         All divs
+div, p      All divs and paragraphs
+
+div p       All paragraphs inside all divs
+div > p     All p tags one level deep in div
+
+div + p     p tag immediately after div
+div ~ p     p tags preceded (after) by div
+
+.classname  All elements with class
+#idname     Element with ID
+#idname *   All elements inside #idname
+
+div.classname   divs with certain classname
+div#idname      div with certain ID

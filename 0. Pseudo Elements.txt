@@ -1,0 +1,41 @@
+::
+1. Pseudo-element is used to style specified parts of an element
+selector::pseudo-element{
+  property: value;
+}
+
+::first-line
+::first-letter
+::before  content
+::after   content
+::marker
+::selection
+
+2. Pseudo-elements with HTML Classes
+selector.classname::pseudo-elements ie.
+p.intro::first-letter {
+  color: #ff0000;
+}
+
+3. ::before Pseudo-element
+used to insert some content before the content of an element
+h1::before{
+  content: url(smiley.gif);
+}
+
+4. ::after Pseudo-element
+h1::after{
+  content: url(smiley.gif);
+}
+
+5. ::marker Pseudo-element
+selects the markers of list items ie.
+::marker{
+  color: red;
+}
+
+6. ::selection Pseudo-element
+selects portion of an element that is selected by a user ie.
+::selection {
+  color: red;
+}

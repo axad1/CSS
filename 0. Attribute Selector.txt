@@ -1,0 +1,55 @@
+Style With Specific Attributes
+[]
+[attribute]
+[attribute="value"]     value
+[attribute~="value"]    word value
+[attribute|="value"]    starting with value or -
+[attribute^="value"]    begins with value
+[attribute$="value"]    ends with value
+[attribute*="value"]    contain value
+
+
+1. CSS [attribute] Selector
+a[target] {
+  background-color: yellow;
+}
+
+2. CSS [attribute="value"] Selector
+a[target="_blank"] {
+  background-color: yellow;
+}
+
+3. CSS [attribute~="value"] Selector
+select elements, with an attribute value, containing a specified word ie.
+[title~="flower"]{
+  border: 5px solid yellow;
+}
+or
+img[title~="flower"]{
+  border: 5px solid yellow;
+}
+
+4. CSS [attribute|="value"] Selector
+select elements, with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-)
+
+5. CSS [attribute^="value"] Selector
+select elements, with the specified attribute, whose value starts with the specified value ie.
+[class^="top"]{
+  background: yellow;
+}
+
+6. CSS [attribute$="value"] Selector
+select elements, whose attribute value ends with a specified value ie.
+[class$="test"]{
+  background: yellow;
+}
+
+7. CSS [attribute*="value"] Selector
+select elements, whose attribute value contains a specified value ie.
+[class*="te"]{
+  background: yellow;
+}
+
+Styling Forms
+input[type="text"]
+input[type="button"]

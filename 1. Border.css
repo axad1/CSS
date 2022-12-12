@@ -1,0 +1,35 @@
+/*
+
+border-width: in,px,pt,cm,em|thin,medium,thick|px px px px (mixed clockwise)
+
+border-style:
+none
+solid
+hidden
+dotted
+dashed
+double
+groove
+ridge
+inset
+outset
+border-top-style: dotted;
+border-right-style: solid;
+border-bottom-style: dotted;
+border-left-style: solid;
+(shorthand property)
+dotted solid dotted solid (mixed clockwise)
+
+border-color: HEX|RGB|HSL | #,#,#,# (mixed clockwise)
+border-top-color: #;
+border-right-color: #;
+border-bottom-color: #;
+border-left-color: #;
+(shorthand property)
+# # # # (mixed clockwise)
+
+border-radius: px
+border-top-left-radius
+border-top-right-radius
+border-bottom-right-radius
+border-bottom-left-radius

@@ -1,0 +1,28 @@
+/*
+
+outline-style:
+solid - Defines a solid outline
+none - Defines no outline
+hidden - Defines a hidden outline
+dotted - Defines a dotted outline
+dashed - Defines a dashed outline
+double - Defines a double outline
+groove - Defines a 3D grooved outline
+ridge - Defines a 3D ridged outline
+inset - Defines a 3D inset outline
+outset - Defines a 3D outset outline
+
+outline-color: name | rgb, hsl, hex | invert
+
+outline-width:
+thin (typically 1px)
+medium (typically 3px)
+thick (typically 5px)
+A specific size (in px, pt, cm, em, etc)
+
+outline-offset: px etc
+adds space between an outline and the border
+
+outline: width, style, color (Shorthand property)
+
+*/

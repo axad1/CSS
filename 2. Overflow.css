@@ -1,0 +1,15 @@
+/*
+
+Overflow: visible|hidden|scroll|auto
+
+overflow-x: hidden
+    left/right edges of the content
+
+overflow-y: scroll
+    top/bottom edges of the content
+
+overflow-wrap: normal|anywhere|break-word|initial|inherit
+specifies whether or not the browser can break lines with long words,
+if they overflow the container
+
+*/

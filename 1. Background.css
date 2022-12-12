@@ -1,0 +1,50 @@
+/*
+background-color: #000000 | rgb(0,0,0) | hsl(0-360, 100%, 50%)
+
+background-image: url(path)
+
+background-repeat: no-repeat | repeat-x | repeat-y
+
+background-attachment: fixed | scroll
+
+background-position: 0% 50% |
+(left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center
+center bottom)
+
+background (shorthand property): color image repeat attachment position
+
+opacity: 0 - 1.0
+
+background-origin: border-box | padding-box | content-box
+no effect if background-attachment is "fixed"
+
+background-clip: border-box|padding-box|content-box|initial|inherit
+
+background-size: auto|length|cover|contain|initial|inherit;
+
+If you want the background image to cover the entire element, you can set the background-size property to cover.
+Also, to make sure the entire element is always covered, set the background-attachment property to fixed:
+This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions):
+
+If you want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%:
+Try resizing the browser window, and you will see that the image will stretch, but always cover the entire element.
+
+
+
+
+*/
+
+body {
+  background-image: url('cs50.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+

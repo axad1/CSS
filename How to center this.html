@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            display: flex;
+            height: 97vh;
+        }
+        #one{
+            margin: auto;
+            width: 50%;
+            display: flex;
+            border: medium solid black;
+            /* height in % work only if parent has a height */
+            height: 50%;
+        }
+        /* first method */
+
+        #two{
+            margin: auto;
+            width: 75%;
+            height: 75%;
+            border: 2px solid red;
+            /* for the child */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* second method */
+        
+        #three{
+            /* margin: auto; */
+            border: 2px solid blue;
+            width: 70%;
+            text-align: center;
+            /* height and line height must be equal */
+            height: 100px;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div id="two">
+            <div id="three">
+                Hello World
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

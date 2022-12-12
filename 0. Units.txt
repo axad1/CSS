@@ -1,0 +1,15 @@
+Absolute Units
+
+Pixel
+pixels in a device
+
+Points
+72 point = 1 inch
+
+Relative Units
+
+Ems
+current size = 1em
+
+Percent
+current size = 100%
